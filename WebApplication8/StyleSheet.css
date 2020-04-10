@@ -1,0 +1,132 @@
+﻿
+.card {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 5%;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.topPadding {
+    position: relative;
+    top: 20%;
+}
+
+.drop {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card1 {
+    height: 60%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+}
+
+.card1 .qeustions {
+    position: relative;
+    width: 70%;
+    height: 20%;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: scroll;
+    border: 2px solid silver;
+}
+
+.card2 {
+    height: 95%;
+    width: 10%;
+    position: relative;
+    top: 5px;
+    left: 2%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card3 {
+    position: absolute;
+    height: 95%;
+    width: 80%;
+    left: 14%;
+    top: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card9 {
+    position: absolute;
+    height: 95%;
+    width: 30%;
+    left: 14%;
+    top: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card7 {
+    position: absolute;
+    height: 95%;
+    width: 50%;
+    left: 50%;
+    top: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.div11 {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    left: 5%;
+    top: 5px;
+    right: 5%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.19), 0 1px 1px rgba(0,0,0,0.23);
+    
+}
+
+
+.appBar {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.myBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    height: 50px;
+}
+
+.fixedBtn {
+    position: fixed;
+    top: 0px;
+    right: 80px;
+    width:70px;
+}
